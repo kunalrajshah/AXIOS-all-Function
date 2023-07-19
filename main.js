@@ -112,7 +112,7 @@ function customHeaders() {
   const configue={
     headers:{                                             // use headers always as a name
       'Content-Type':'application/Json',
-      Authorization:'SomeToken'
+      'Authorization':'SomeToken'
     }
   };
   axios.post('https://jsonplaceholder.typicode.com/todos',{
